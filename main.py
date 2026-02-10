@@ -4,6 +4,9 @@ WiFi BruteForce Tool - Main Entry Point
 Professional refactored version with modular architecture
 """
 
+import utils.http_session
+import utils.transport
+import utils.session
 import sys
 import time
 import re
